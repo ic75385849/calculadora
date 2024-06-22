@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: 0;
+    background-image: url(fondo2.avif);
+    background-size: cover;
+}
+
+.calculadora {
+    background-color: #566573;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+   
+
+}
+
+.display {
+    width: 98%;
+    height: 70px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px
+}
+
+button {
+    font-size: 1.5vmax;
+    padding: 15px;
+    border: none;
+    cursor: crosshair;
+    background-color: #F9E79F;
+    color: black;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color:#99A3A4;
+}
+
